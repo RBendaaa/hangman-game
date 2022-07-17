@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    border: 1vh solid black;
+    max-width: 30vw;
+}
+#word{
+    font-size: 4vh;
+}
+#input{
+    max-width: 60vw;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 2vh 3vw;
+}
+#input > button{
+    font-size: 3vh;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
